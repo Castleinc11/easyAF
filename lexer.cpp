@@ -7,6 +7,7 @@
 using namespace std;
 
 int main(){
+	// regex definitions for identifying string type
 	regex integer("(\\+|-)?[[:digit:]]+");
 	regex string1("(\"[^\"\\\\]*(?:\\\\.[^\"\\\\]*)*\")|(\'[^\'\\\\]*(?:\\\\.[^\'\\\\]*)*\')");
 	regex varname("[a-zA-Z_][a-zA-Z0-9_]{0,31}");
